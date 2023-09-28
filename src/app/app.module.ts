@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
-import { CountriesModule } from './coutries/countries.module';
+import { CountriesModule } from './countries/countries.module';
 import { appRoutingModule } from './app-routing.module';
 
 @NgModule({
@@ -13,7 +13,6 @@ import { appRoutingModule } from './app-routing.module';
   imports: [
     BrowserModule,
     SharedModule,
-    CountriesModule,
     appRoutingModule,
   ],
   providers: [],

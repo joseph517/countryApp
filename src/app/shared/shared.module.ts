@@ -4,7 +4,7 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { AboutComponent } from './pages/about/about.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { RouterModule } from '@angular/router';
-import { ContacComponent } from './pages/contac/contac.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 
 
@@ -13,7 +13,7 @@ import { ContacComponent } from './pages/contac/contac.component';
     HomePageComponent,
     AboutComponent,
     SidebarComponent,
-    ContacComponent
+    ContactComponent
   ],
   imports: [
     CommonModule,
@@ -23,6 +23,7 @@ import { ContacComponent } from './pages/contac/contac.component';
     HomePageComponent,
     AboutComponent,
     SidebarComponent,
+    ContactComponent
   ]
 })
 export class SharedModule { }
