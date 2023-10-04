@@ -11,22 +11,22 @@ import { SearchBoxComponent } from './components/search-box/search-box.component
 
 @NgModule({
   declarations: [
-    HomePageComponent,
     AboutComponent,
-    SidebarComponent,
     ContactComponent,
+    HomePageComponent,
     SearchBoxComponent,
+    SidebarComponent,
   ],
   imports: [
     CommonModule,
     RouterModule,
   ],
   exports:[
-    HomePageComponent,
     AboutComponent,
-    SidebarComponent,
     ContactComponent,
+    HomePageComponent,
     SearchBoxComponent,
+    SidebarComponent,
   ]
 })
 export class SharedModule { }
