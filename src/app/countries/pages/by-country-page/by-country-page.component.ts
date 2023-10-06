@@ -10,14 +10,17 @@ import { Country } from '../../interfaces/country';
 })
 export class ByCountryPageComponent {
   public countries:Country[] = []
+  public isLoading:boolean = false
   constructor(
     private countryService: CountriesService
   ){}
 
   searchByCountry(country:string){
+    this.isLoading = true
     this.countryService.searchCountry(country)
       .subscribe((countries:Country[])=>{
         this.countries = countries
+        this.isLoading = false
       })
   }
 
