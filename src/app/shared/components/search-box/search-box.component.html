@@ -4,5 +4,6 @@ type="text"
 [placeholder]="placeHolder"
 (keyup)="emitValue(txtInput.value)"
 (keyup.enter)="emitValue(txtInput.value)"
+[value]="initialValue"
   #txtInput
 >
