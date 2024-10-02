@@ -1,4 +1,11 @@
 # CountryApp
+# Web app: https://country-app-pi-seven.vercel.app/countries/by-country
+
+![image](https://github.com/user-attachments/assets/69563b4c-0029-414e-a781-053a7b4cadf4)
+
+![image](https://github.com/user-attachments/assets/7cf36bbe-ebd9-4855-a721-c68a6b91f980)
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
 
